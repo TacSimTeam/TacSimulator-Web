@@ -5,7 +5,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 const option: Configuration = {
   mode: isDev ? 'development' : 'production',
-  entry: `./src/renderer/index.ts`,
+  entry: `./src/index.ts`,
   module: {
     rules: [
       {

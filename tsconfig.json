@@ -16,7 +16,7 @@
     "moduleResolution": "Node"
   },
   "include": [
-    "src/renderer/**/*"
+    "src/**/*"
   ],
   "ts-node": {
     "compilerOptions": {
